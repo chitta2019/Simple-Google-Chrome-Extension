@@ -1,0 +1,15 @@
+{
+  "name": "Hello World!",
+  "version": "45.0.2454.93",
+  "manifest_version": 2,
+  "description": "My first Chrome extension.",
+  "icons":{
+  	"16": "a1.jpg",
+    "32": "a2.jpg",
+    "48": "a3.jpg",
+  },
+  "browser_action": {
+    "default_icon": "a3.jpg",
+	"default_popup": "popup.html"
+  }
+}
